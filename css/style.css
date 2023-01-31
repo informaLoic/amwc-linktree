@@ -1,0 +1,57 @@
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Lato', sans-serif;
+}
+main {
+    padding: 2em;
+    max-width: 500px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    padding: 3em;
+}
+h1 {
+    color: white;
+    padding-top: 1em;
+}
+a {
+    display: block;
+    text-align: center;
+    margin: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 100px;
+}
+a.primary-cta {
+    background-color: #17AF97;
+    color: white;
+}
+a.secondary-cta {
+    background-color: white;
+    color: #17AF97;
+    border: solid 1px #17AF97;
+}
+/*CHOOSE PASS*/
+/*---------*/
+header.vip {
+    background-color: black;
+}
+header.full {
+    background-color: #6634CC;
+}
+header.conf {
+    background-color: #0559A3;
+}
+header.pre {
+    background-color: #FF6600;
+}
+/*---------*/
